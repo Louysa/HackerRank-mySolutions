@@ -1,12 +1,7 @@
 import java.util.Scanner;
 
 public class Day21 <T> {
-    /**
-     * Method Name: printArray
-     * Print each element of the generic array on a new line. Do not return anything.
-     *
-     * @param A generic array
-     **/
+
     static <T> void printArray(T[] array) {
         for (T element : array) {
             System.out.println(element);
@@ -16,7 +11,7 @@ public class Day21 <T> {
     // Write your code here
 
 }
-public class Generics {
+ class Generics {
 
     public static void main(String args[]){
 
