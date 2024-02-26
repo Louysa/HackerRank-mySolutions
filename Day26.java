@@ -13,6 +13,7 @@ public class Day26 {
         int expectMonth = sc.nextInt();
         int expectYear = sc.nextInt();
 
+        
         Date date1 = new Date(returnYear, returnMonth, returnDay);
         Date date2 = new Date(expectYear, expectMonth, expectDay);
 
